@@ -1,4 +1,4 @@
-package ayd.ak2.lastfm
+package ayds.ak2.lastfm.lastFM
 
 interface ExternalArtist {
     var artistBio: String?

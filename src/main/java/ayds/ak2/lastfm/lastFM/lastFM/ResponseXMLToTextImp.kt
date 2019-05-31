@@ -1,8 +1,8 @@
-package ayd.ak2.lastfm.lastFM
+package ayds.ak2.lastfm.lastFM.lastFM
 
 import android.util.Log
-import ayd.ak2.lastfm.ExternalArtist
-import ayds.ak2.lastfm.ExternalArtistImp
+import ayds.ak2.lastfm.lastFM.ExternalArtist
+import ayds.ak2.lastfm.lastFM.ExternalArtistImp
 import org.w3c.dom.Document
 import org.w3c.dom.Node
 import org.w3c.dom.NodeList

@@ -1,8 +1,8 @@
-package ayd.ak2.lastfm.lastFM
+package ayds.ak2.lastfm.lastFM.lastFM
 
 import android.util.Log
-import ayd.ak2.lastfm.ArtistInfoService
-import ayd.ak2.lastfm.ExternalArtist
+import ayds.ak2.lastfm.lastFM.ArtistInfoService
+import ayds.ak2.lastfm.lastFM.ExternalArtist
 import java.io.IOException
 
 private const val NO_RESULTS = "No Results"

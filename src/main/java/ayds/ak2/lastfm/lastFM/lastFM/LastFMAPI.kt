@@ -1,4 +1,4 @@
-package ayd.ak2.lastfm.lastFM
+package ayds.ak2.lastfm.lastFM.lastFM
 
 import retrofit2.Call
 import retrofit2.http.GET
