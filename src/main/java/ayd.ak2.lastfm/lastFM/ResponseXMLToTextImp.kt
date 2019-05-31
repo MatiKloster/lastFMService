@@ -1,9 +1,8 @@
-package lastfmservice.lastFM
+package ayd.ak2.lastfm.lastFM
 
 import android.util.Log
-import lastfmservice.Source
-import lastfmservice.ExternalArtist
-import lastfmservice.ExternalArtistImp
+import ayd.ak2.lastfm.ExternalArtist
+import ayds.ak2.lastfm.ExternalArtistImp
 import org.w3c.dom.Document
 import org.w3c.dom.Node
 import org.w3c.dom.NodeList
@@ -27,9 +26,8 @@ internal class ResponseXMLToTextImp : ResponseToText {
         val extract = getContenidoArtista(doc!!)
         val artistBio = darFormatoAResultado(extract)
         val artistImage = getImagePath(response)
-        val source = Source.LastFM.ordinal
 
-        return ExternalArtistImp(artistBio, artistImage!!, source)
+        return ExternalArtistImp(artistBio, artistImage!!)
     }
 
     private fun darFormatoAResultado(extract: Node?): String {

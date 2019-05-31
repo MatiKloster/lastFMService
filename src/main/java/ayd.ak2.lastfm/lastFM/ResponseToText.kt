@@ -1,6 +1,6 @@
-package lastfmservice.lastFM
+package ayd.ak2.lastfm.lastFM
 
-import lastfmservice.ExternalArtist
+import ayd.ak2.lastfm.ExternalArtist
 
 interface ResponseToText {
     fun getWrapper(response: String, artistName: String): ExternalArtist

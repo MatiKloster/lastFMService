@@ -1,17 +1,17 @@
-package lastfmservice.lastFM
+package ayd.ak2.lastfm.lastFM
 
 import android.util.Log
-import lastfmservice.OtherInfoExternalService
-import lastfmservice.ExternalArtist
+import ayd.ak2.lastfm.ArtistInfoService
+import ayd.ak2.lastfm.ExternalArtist
 import java.io.IOException
 
 private const val NO_RESULTS = "No Results"
 
-internal class LastFMService(api: LastFMAPI, resolverToText: ResponseToText) : OtherInfoExternalService {
+internal class LastFMInfoService(api: LastFMAPI, resolverToText: ResponseToText) : ArtistInfoService {
     private val interfazComunicadoraLASTFM: LastFMAPI = api
     private val aplanadorDeTexto: ResponseToText = resolverToText
 
-    override fun getInfoFromService(artistName: String): ExternalArtist {
+    override fun getArtistInfo(artistName: String): ExternalArtist {
         var response: String? = null
         var externalArtistInfo: ExternalArtist
         try {

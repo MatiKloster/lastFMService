@@ -1,14 +1,14 @@
-package lastfmservice.lastFM
+package ayd.ak2.lastfm.lastFM
 
-import lastfmservice.OtherInfoExternalService
+import ayd.ak2.lastfm.ArtistInfoService
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
 
 private const val URL_RETROFIT = "http://ws.audioscrobbler.com/2.0/"
 
 object LastFMModule {
-    fun getExternalService(): OtherInfoExternalService {
-        return LastFMService(createServiceAPI(), ResponseXMLToTextImp())
+    fun getExternalService(): ArtistInfoService {
+        return LastFMInfoService(createServiceAPI(), ResponseXMLToTextImp())
     }
 
     private fun createServiceAPI(): LastFMAPI {
