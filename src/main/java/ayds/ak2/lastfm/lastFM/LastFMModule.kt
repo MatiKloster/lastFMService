@@ -1,6 +1,5 @@
 package ayds.ak2.lastfm.lastFM
 
-import ayds.ak2.lastfm.ArtistInfoService
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
 

@@ -1,7 +1,6 @@
 package ayds.ak2.lastfm.lastFM
 
 import android.util.Log
-import ayds.ak2.lastfm.ArtistInfoService
 import ayds.ak2.lastfm.ExternalArtist
 import java.io.IOException
 
