@@ -1,6 +1,6 @@
-package ayds.ak2.lastfm.lastFM
+package ayds.ak2.lastfm
 
-import ayds.ak2.lastfm.lastFM.lastFM.LastFMModule
+import ayds.ak2.lastfm.lastFM.LastFMModule
 
 object ExternalServiceModule {
 
